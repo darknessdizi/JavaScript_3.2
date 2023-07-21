@@ -8,3 +8,27 @@ textarea {
   border: 1px solid #e2e2e2;
   box-sizing: border-box;
 }
+
+.button {
+  text-align: center;
+}
+
+.button-clearn {
+  background-color: rgb(20, 133, 238);
+  display: inline-block;
+  margin: auto;
+  padding: 5px 10px;
+  border: 2px solid rgb(3, 74, 121);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button-clearn:hover {
+  opacity: 0.9;
+}
+
+.button-clearn:active {
+  background-color: rgb(20, 238, 104);
+}
