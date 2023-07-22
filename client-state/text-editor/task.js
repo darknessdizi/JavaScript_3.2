@@ -14,4 +14,5 @@ textArea.addEventListener('input', () => {
 const btn = document.querySelector('.button-clearn');
 btn.addEventListener('click', () => {
     textArea.value = '';
+    localStorage.setItem('netology_textArea', textArea.value);
 });
